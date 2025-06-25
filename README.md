@@ -2,8 +2,8 @@
 
 A modern, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-![Game Screenshot](./image/image1.jpg)
-![Game Screenshot](./image/image2.jpg)
+![Game Screenshot](./image/image1.png)
+![Game Screenshot](./image/image2.png)
 
 ## ✨ Features
 - Responsive design
@@ -28,7 +28,7 @@ A modern, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 ## 📸 Screenshots
 | Game View | Winning State |
 |-----------|---------------|
-| ![Game View](./image/image1.jpg) | ![Winning State](./image/image2.jpg) |
+| ![Game View](./image/image1.png) | ![Winning State](./image/image2.png) |
 
 ## 📝 How to Play
 1. Player 1 (O) goes first
