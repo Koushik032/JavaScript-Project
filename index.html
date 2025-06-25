@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link href="./output.css" rel="stylesheet">
+    
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-500 to-blue-600 flex flex-col items-center justify-start py-10 px-4">
+    <div class="max-w-md w-full">
+        <h1 class="mb-8 text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-amber-600">
+            Tic-Tac-Toe
+        </h1>
+
+        <div class="message-container animate__animated animate__faster mb-6 hidden" id="message-container">
+            <div class="message text-3xl font-bold text-center text-gray-800" id="message"></div>
+        </div>
+
+        <div class="game-board mb-8">
+            <div class="grid grid-cols-3 gap-2">
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+                <button class="btn border-2 border-gray-200 p-5 text-4xl font-bold bg-white/90 h-24 w-24 rounded-xl flex items-center justify-center"></button>
+            </div>
+        </div>
+
+        <div class="flex justify-center">
+            <button class="reset_btn px-8 py-3 text-xl rounded-xl shadow-lg font-semibold tracking-tighter text-gray-800 translation">
+                New Game
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
